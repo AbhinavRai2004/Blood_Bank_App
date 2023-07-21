@@ -1,0 +1,29 @@
+{
+  "name": "mern-stack-project",
+  "version": "1.0.0",
+  "description": "Blood Bank App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhinavRai2004/Blood_Bank_App.git"
+  },
+  "author": "Abhinav Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhinavRai2004/Blood_Bank_App/issues"
+  },
+  "homepage": "https://github.com/AbhinavRai2004/Blood_Bank_App#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
