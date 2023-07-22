@@ -21,6 +21,7 @@ app.use(cors());
 app.use(morgan('dev'))
 
 //Routes.
+// 1. test Route 
 // app.get("/", (req, res) => {
 //   res.status(200).json({
 //     message: "welcome To Blood Bank",
@@ -28,6 +29,7 @@ app.use(morgan('dev'))
 // });
 
 app.use('/api/v1/test',require('./routes/testRoutes'));
+app.use('/api/v1/auth',require('./routes/authRoutes'));
 
 
 //Port
