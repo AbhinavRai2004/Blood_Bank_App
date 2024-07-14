@@ -23,12 +23,12 @@ The MERN Stack Blood Bank Project is a web application that leverages MongoDB, E
 
 1. Clone the repository:
     ```sh
-    https://github.com/AbhinavRai2004/Blood_Bank_Mern_Stack_Project.git
+    https://github.com/AbhinavRai2004/Blood_Bank_App.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd Blood_Bank_Mern_Stack_Project
+    cd Blood_Bank_App
     ```
 
 3. Install backend dependencies:
@@ -75,7 +75,7 @@ The MERN Stack Blood Bank Project is a web application that leverages MongoDB, E
 ## Project Structure
 
 ```plaintext
-Blood_Bank_Mern_Stack_Project/
+Blood_Bank_App/
 │   ├── config/
 │   ├── controllers/
 │   ├── models/
