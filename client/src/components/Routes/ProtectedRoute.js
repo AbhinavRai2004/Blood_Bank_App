@@ -18,7 +18,7 @@ const ProtectedRoute = ({ children }) => {
       console.log(error);
     }
   };
-  
+
   useEffect(() => {
     getUser();
   });
